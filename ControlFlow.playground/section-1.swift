@@ -7,13 +7,17 @@ let lamboSpeed = 120
 
 var mySpeed:Int
 
-mySpeed = 55
+mySpeed = 50
 
-if mySpeed < 70{
-    println("Keep crusing")
+if mySpeed <= 40{
+    println("You're in a local area")
+}else if mySpeed <= 65{
+    println("We're crusing down the high way")
 }else{
     println("Slow down police ahead")
 }
+
+
 
 let isTelevisionOn = true
 
